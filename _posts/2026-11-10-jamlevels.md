@@ -1,6 +1,6 @@
 ---
 title: Jam's Adjustable Levels
-date: 2025-11-10 23:20:00 +/-0000
+date: 2026-11-10 23:20:00 +/-0000
 categories: [projects]
 tags: [projects]     # TAG names should always be lowercase
 ---
@@ -23,15 +23,15 @@ We initially planned for about 15ish levels within the game and I was tasked wit
 Jake, How do you plan levels for a puzzle game?
 
 **PowerPoint.**
-![Level designed in PowerPoint](assets/img/posts/JAMLevels/Powerpoint.jpg)
+![Level designed in PowerPoint](/assets/img/posts/JamLevels/Powerpoint.png)
 Yes, this is a real level, PowerPoint is the #1 tool of level design, fight me.
 Let's see what this looks like in JAM (The CanJam beta), this level ultimately became level 15.
-![Real level that was made in powerpoint](assets/img/posts/JAMLevels/JamLevel15.jpg)
+![Real level that was made in powerpoint](/assets/img/posts/JamLevels/JamLevel15.png)
 
 Ultimately, levels changed, I actually made a fair few levels that were far too hard, so only the first 7 or so levels I planned out in PowerPoint got made, with 5ish levels being reserved as a tutorial for the mechanics of the mirrors.
 
 Originally these levels were made in the Unity editor as scenes, which is why walls don't snap to the grid, and have strange rotations and some aren't full as seen in the bottom right corner.
-![Jam Level](assets/img/posts/JAMLevels/JamLevelExample.jpg)
+![Jam Level](/assets/img/posts/JamLevels/JamLevelExample.png)
 
  This is what it roughly looked like in the Unity editor, JAM was originally made in Unity 2022 but we upgraded to 6.0 to get rid of the Unity Splash and then to 6.2 for the full release because of the Unity Exploit. Because it has been so long, I don't have the original Unity editor the JAM CanJam build was made in and so opening it in 6.2 has likely broke some stuff like the background but it was there originally.
 
@@ -41,13 +41,13 @@ So let's talk about the level editor and how it was made.
 Towards the end of CanJam I felt like JAM was missing something and it has become sort of a trope in product announcements/game announcements to have a one more thing. This thinking led me to wonder how hard it would be to add a level editor, revealing it at the end of our demo in the game jam as a "oh one last thing, here's a working level editor!" felt like a good idea.
 
 So with about six hours until the end of JAM, I created a level editor that spawned an empty 15x15 empty board and 9 of each item (10 would have been far too much!). This was my first time actually messing with the Unity editor besides building the levels and I didn't really know how canvases worked so while it looked good on the random uni monitor I made it on (I promise) as you'll see below it doesn't quite hold up.
-![JAM Alpha Editor](assets/img/posts/JAMLevels/JamAlphaEditor.jpg)
+![JAM Alpha Editor](/assets/img/posts/JamLevels/JamAlphaEditor.png)
 
 With the level editor complete, people in the prototype build could create, save and share levels and eventually the level editor pretty much took over JAM.
 
 Here's what the final one looked like:
 
-![Jam Full Editor](assets/img/posts/JAMLevels/JamReleaseEditor.jpg)
+![Jam Full Editor](/assets/img/posts/JamLevels/JamReleaseEditor.png)
 
 # JAM 1.0
 After CanJam was made, we started working on more levels, we spent a while cleaning up some parts of JAM and one of these was the levels.
@@ -71,7 +71,7 @@ So if you are following so far, I never actually explained what happened to the 
 
 So about the same time as writing JAM, I worked part time on a writing app; we had a very complicated XML file system which probably was amazing 20 years ago, modern .NET bundles its own XML and JSON parsers (If you don't know what XML and JSON are; they are just ways of storing data as text) and I was in the middle of moving the app I was working on from our own XML parser to the built in JSON (off the top of my head, this saved us about 3000ish lines of code and made it significantly easier to add new features) and so when I decided to make the level editor, I made it work the same way.
 
-This is actually the whole function to save the level in the CanJam build ![Jam save code](assets/img/posts/JAMLevels/JamSaveCode.jpg)
+This is actually the whole function to save the level in the CanJam build ![Jam save code](/assets/img/posts/JamLevels/JamSaveCode.png)
 
 
 This is a rough initial version, the final version has a lot of extra stuff like an items whitelist to make sure we don't save stuff like the camera or grid since it's far better to just reinitialise them. We also make sure everything we are loading is actually within the grid, this was because the items in the bar at the bottom were the actual items until late in development and we were accidentally saving them.
@@ -79,7 +79,7 @@ This is a rough initial version, the final version has a lot of extra stuff like
 
 # One Year Later
 I realised it was coming up to about one year of release for JAM and I don't think I've played nearly at all since release. I had my fair share of fun with JAM in the many, many hours it took for Steamworks, and building all the levels.
-![Jam Steam Playtime iamge](assets/img/posts/JAMLevels/JamSteam.png)
+![Jam Steam Playtime iamge](/assets/img/posts/JamLevels/JamSteam.png)
 So I figured I'd come back to it and maybe even 100% my own game. I did previously have 100% in JAM as part of testing but I relocked most of my achievements afterwards.
 
 I didn't originally plan to make the majority of levels but did and damn I made some of these really hard, I actually can't solve them. I know they aren't impossible because someone did make a Steam guide for every level but one day I will 100% my own game.
