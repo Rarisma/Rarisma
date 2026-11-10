@@ -23,7 +23,7 @@ We initially planned for about 15ish levels within the game and I was tasked wit
 Jake, How do you plan levels for a puzzle game?
 
 **PowerPoint.**
-![Level designed in PowerPoint](/assets/img/posts/JamLevels/Powerpoint.png)
+![Level designed in PowerPoint](/assets/img/posts/JamLevels/Powerpoint.jpg)
 Yes, this is a real level, PowerPoint is the #1 tool of level design, fight me.
 Let's see what this looks like in JAM (The CanJam beta), this level ultimately became level 15.
 
